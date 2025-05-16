@@ -16,7 +16,7 @@ from requests.packages.urllib3.util.retry import Retry
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Initialize the bot using the provided token
-bot = telebot.TeleBot("7971588715:AAHpEi55RyMsC03ZEbuni8YixzrkgefOL60")
+bot = telebot.TeleBot("7409591129:AAGPj2CjO8E97ZH82OwLBkMLg5OZjPCYH-M")
 
 # Setup logging
 logging.basicConfig(filename='bot_errors.log', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -79,7 +79,7 @@ def get_bearer_token():
         return result[0] if result else None
 
 # Define the owner ID
-OWNER_ID = 6189803357
+OWNER_ID = 7218606355
 
 # Dictionary to temporarily store file paths for users
 uploaded_files = {}
